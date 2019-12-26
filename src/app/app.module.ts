@@ -8,6 +8,10 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppmenuComponent } from './appmenu/appmenu.component';
 import { HomeComponent } from './home/home.component';
+import { BannerComponent } from './banner/banner.component';
+import { CaruselComponent } from './carusel/carusel.component';
+import { FeatureComponent } from './feature/feature.component';
+import { LessonComponent } from './lesson/lesson.component';
 
 
 
@@ -15,7 +19,11 @@ import { HomeComponent } from './home/home.component';
   declarations: [
     AppComponent,
     AppmenuComponent,
-    HomeComponent
+    HomeComponent,
+    BannerComponent,
+    CaruselComponent,
+    FeatureComponent,
+    LessonComponent
   ],
   imports: [
     BrowserModule,
